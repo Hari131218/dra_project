@@ -31,12 +31,8 @@ class _requestinfoState extends State<requestinfo> {
   final TextEditingController statuscontroller = TextEditingController();
   final TextEditingController webidcontroller = TextEditingController();
   final TextEditingController flagcontroller = TextEditingController();
-  final TextEditingController assement_request_idcontroller =
-      TextEditingController();
+  final TextEditingController assement_request_idcontroller = TextEditingController();
 
-
-  //hi
-//hi
 
   late SharedPreferences localStorage;
   bool isLoading = false;
